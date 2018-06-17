@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "To do app where users can add items and check those off.",
+  "main": "index.html",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run server\"",
+    "server": "node scripts/server.js"
+  },
+  "dependencies": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "browser-sync": "^2.24.4",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.1",
+    "npm-run-script": "0.0.4"
+  }
+}
